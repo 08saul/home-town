@@ -1,57 +1,32 @@
-<!DOCTYPE html>
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="index.css">
     </head>
-    <body>
+    <div id="main-flex">
+       
+        <h3 id="fstr-el">Generate A</h3>
+        <h3> Random Password</h3>
+        <p>never use unsecure password again</p>
+    </div>
         
-        <!-- HERO SECTION -->
-        <div id="hero-sctn">
-          
- <button class="btn-h1"><h1>Visit Luanda</h1></button>
- <button class="btn-h2"><h2>Enjoy culture and sports in this vibrant 
-   district close to the center of Luanda.</h2>
- </button>
-   
-        </div>
-        
-        <!-- ACTIVITIES SECTION -->
-        <div id="act-section">
-            <div>
-           <img src="images/park.jpg" id="par-kjpg">
-   <P>their are thousand of relaxing spot</P></div>
-            <div>
-                <img src="images/theatre.jpg"
-            id="par-kjpg">
-            <p>theatre cannot be fogotten</p>
-            </div>
+        <div>
             
-           <div>
-           <img src="images/sports.jpg"
-           id="par-kjpg">
-           <p>one the activety is motor sport</p>
-           </div>
+        <input type="text" id="password" placeholder="password"">
+        <div class="di-btn1">
+          
+     
+            
+         <button onclick="createpassword()">generate password</button>
+             <button onclick="copypassword()">&#200012 copy</button>
+         </button>
+       
+        
         </div>
-
+       
+       
+        
+       
       
-        <div id="guide-sctn">
-            
-         <div class="per-img">   <img src="images/per.jpg"></div>
-          <div>
-         <h3>Your guide</h3>
-          
-            <p>"I have lived at Luanda for 
-                over 17 years and rest in 
-                Cape Town,now i'm 45 years old
-                I can still show you all of its 
-                best parts and 
-                hidden secrets."</p>        
-          
-            <h4>saul pedro de oliveira manuel</h4>
-         </div>
-          
-          
-        </div>
-        </div>
+        <script src="index.js"></script>
     </body>
 </html>

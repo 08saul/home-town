@@ -1,0 +1,125 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:linear-gradient(black,darkblue,beige); 
+   background-size: cover;
+   margin: 30px;
+   padding: 5px;   
+   text-shadow: .4pt .5pt .8pt lightcyan ;
+   text-align: start;
+  border: dotted 1px;
+  display: flex;
+  justify-content: space-between;
+ flex-direction: column;
+  align-items:
+  start;
+  max-height: 200px;
+  max-width: 200px;
+
+
+    
+}
+
+#main-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  
+  margin: none;
+
+  }
+  #fstr-el{
+      margin: 1px;
+      color: whitesmoke;
+      font-weight: bold;
+  }
+  h3{
+      margin: 1px;
+      color: whitesmoke;
+      color: green;
+      font-weight: bold;
+  }
+h1,h2{
+    margin:1px; 
+   
+    color: whitesmoke
+}
+p{
+   color: white;
+   font-size: small;
+ 
+}
+ #style-el{
+  
+   margin-right: 12px;
+ 
+ }
+ #btn-el{
+  
+   margin: 2px;
+   width: 100px;
+   height: 20px;
+
+      
+ }
+ #btn-ela{
+     margin:2px; 
+     width: 100px;
+     height: 20px;
+    
+ }
+ #border-btn{
+     display: flex;
+    border: solid red 1px;
+    margin:  50px;
+    
+   
+ }
+ input{
+     background-color:green;
+     color: white;
+     border: none;
+     padding: 12px;
+     border: none;
+     border-radius: 2px;
+     width: 100px;
+     height: 12px;
+   
+    
+   
+    
+ }
+ 
+ .di-btn1{
+     display: flex; 
+     flex-direction:row; 
+    
+    margin-top: 20px;
+     width: 250px;
+     height: 30px;
+  
+      }
+     .button{
+                  
+       width: 150px; 
+       width: 50px;  
+       padding: 3px;
+       margin: 20px 20px; 
+       border-radius: 2px solid snow;
+  
+    
+          
+          
+      }
+      #g-btn{
+          margin-right: 9px 10px;
+          
+         
+      }
+      #copy-el{
+          width: 40px;
+          height: 5px;
+       
+          
+      }
+      
